@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Available Drives:</h1>
+<br>
+<p id="paragraph"></p>
+
+<script>
+function setToDrive(drive_id){
+    window.location.assign("file:///" + drive_id + ":/");
+}
+function showDrive(){
+	if(typeof(Storage) !== "undefined") {
+		var text = localStorage.GDrive;
+		document.getElementById("paragraph").innerHTML = text;
+	}
+	else {
+		document.getElementById("paragraph").innerHTML = "Sorry, your browser does not support web storage...";
+	}
+}
+</script>
+
+<button type="button" id="button2" onclick="setToDrive('C')">Drive C</button></br>
+<button type="button" id="button3" onclick="setToDrive('D')">Drive D</button></br>
+<button type="button" id="button4" onclick="setToDrive('E')">Drive E</button></br>
+<button type="button" id="button5" onclick="setToDrive('F')">Drive F</button></br>
+<button type="button" id="button6" onclick="setToDrive('G')">Drive G</button></br>
+<button type="button" id="button7" onclick="setToDrive('H')">Drive H</button></br>
+<button type="button" id="button8" onclick="setToDrive('I')">Drive I</button></br>
+
+<!--
+<applet id="DriveCheck" code="DriveCheck.class">
+</applet>
+
+<script>
+var drive_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var drives = DriveCheck.check_drives();
+document.getElementById("paragraph").innerHTML = drives;
+var pos;
+var button = "button";
+for (i = 0; i < drives.length; i++){
+	pos = drives.search( drive_list.substr(i,1) );
+	if (pos == -1) {
+		document.getElementById( "button"+i.toString() ).disabled = true;
+	}
+}
+
+/*
+var drives = ["A:/","B:/","C:/","D:/","E:/","F:/","G:/","H:/","I:/","J:/","K:/","L:/",
+"M:/","N:/","O:/","P:/","Q:/","R:/","S:/","T:/","U:/","V:/","W:/","X:/","Y:/","Z:/"];
+var drivestring = "file:///";
+for (i = 0; i < drives.length; i++){
+	var request = new XMLHttpRequest();
+	request.open('GET', drivestring + drives[i]);
+	request.send();
+	if (request.status == 404 ){
+		document.getElementById( "button"+i.toString() ).disabled = true;
+	}
+}
+*/
+</script>
+-->
+
+</html>

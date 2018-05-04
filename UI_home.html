@@ -1,0 +1,29 @@
+<!DOCTYPE html><html>
+<script>
+if (window.File && window.FileReader && window.FileList && window.Blob) {  // Great success! All the File APIs are supported.} else {  alert('The File APIs are not fully supported in this browser.');}</script>
+<script>
+function setToWireless(frame_id){
+    document.getElementById(frame_id).src = 'https://drive.google.com/embeddedfolderview?id=0BwaZQzcwTHDQcGNmQ0lITHg0SFE#list';
+}
+function setToStorage(frame_id){
+	document.getElementById(frame_id).src = 'drive_page.html';
+}function setToSettings(frame_id){	document.getElementById(frame_id).src = 'settings.html';}
+</script>
+
+
+<div align="center">
+<button type="button" style="height:100px;width:300px"onclick="setToSettings('frame1')" autofocus>
+Settings</button>
+<button type="button" style="height:100px;width:300px"
+onclick="setToWireless('frame1')">
+Google Drive</button>
+<button type="button" style="height:100px;width:300px"
+onclick="setToStorage('frame1')">
+Removable storage</button>
+</div>
+
+<iframe src="drive_page.html" width="100%" height="500" id="frame1">
+</iframe>
+
+
+</html>

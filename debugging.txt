@@ -1,0 +1,491 @@
+Sensor configuration executed on address 0x44
+write_orient executed
+orientation flip written to EVM
+read_orient executed
+write zeros to read_orient executed
+read orientation data executed: 0x4
+last value of read orientation data is 0x4
+loop count is 0data test 0x44: 61.42
+beginning of autobrightness function
+data test 0x44: 61.42
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.1
+end of autobrightness function
+read_captivate executed
+[0, 0, 11, 0, 0, 15]
+user_location = -1
+beginning of autobrightness function
+data test 0x44: 60.94
+end of autobrightness function
+read_captivate executed
+[0, 0, 7, 0, 0, 13]
+user_location = 0
+beginning of autobrightness function
+data test 0x44: 60.78
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.26
+end of autobrightness function
+read_captivate executed
+[0, 0, 3, 0, 0, 13]
+user_location = 1
+beginning of autobrightness function
+data test 0x44: 60.94
+end of autobrightness function
+read_captivate executed
+[0, 0, 5, 0, 0, 15]
+user_location = 2
+read_captivate executed
+[0, 0, 6, 0, 0, 13]
+user_location = 2
+read_captivate executed
+[0, 0, 6, 0, 0, 15]
+user_location = 2
+beginning of autobrightness function
+data test 0x44: 60.94
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.1
+end of autobrightness function
+read_captivate executed
+[0, 0, 5, 0, 0, 15]
+user_location = 2
+beginning of autobrightness function
+data test 0x44: 61.9
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 62.06
+end of autobrightness function
+read_captivate executed
+[0, 0, 0, 0, 0, 13]
+user_location = 2
+beginning of autobrightness function
+data test 0x44: 62.06
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 63.04
+end of autobrightness function
+read_captivate executed
+[0, 0, 7, 0, 0, 15]
+user_location = 2
+beginning of autobrightness function
+data test 0x44: 62.88
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.58
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.58
+end of autobrightness function
+read_captivate executed
+beginning of autobrightness function
+data test 0x44: 61.58
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.58
+end of autobrightness function
+read_captivate executed
+read_captivate executed
+[0, 0, 6, 0, 0, 15]
+user_location = 1
+beginning of autobrightness function
+[0, 0, 6, 0, 0, 15]
+user_location = 1
+data test 0x44: 61.58
+end of autobrightness function
+read_captivate executed
+[0, 0, 5, 0, 0, 15]
+user_location = 1
+beginning of autobrightness function
+data test 0x44: 67.38
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.68
+read_led executed
+write zeros to read_led executed
+current read executed
+[130, 2, 130, 2, 130, 2]
+write_led executed
+write currents executed
+read_led executed
+write zeros to read_led executed
+current read executed
+[252, 1, 155, 2, 155, 2]
+led currents match
+current write executedend of autobrightness function
+read_captivate executed
+[0, 0, 9, 0, 0, 15]
+user_location = 1
+beginning of autobrightness function
+data test 0x44: 58.86
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.7
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 59.18
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 64.96
+end of autobrightness function
+read_captivate executed
+[0, 0, 10, 0, 0, 15]
+user_location = 1
+read_captivate executed
+[0, 0, 11, 0, 0, 15]
+user_location = 1
+beginning of autobrightness function
+data test 0x44: 60.94
+end of autobrightness function
+read_captivate executed
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+read_captivate executed
+beginning of autobrightness function
+data test 0x44: 60.62
+data test 0x44: 60.46
+read_led executed
+write zeros to read_led executed
+current read executed
+[252, 1, 155, 2, 155, 2]
+write_led executed
+write currents executed
+read_led executed
+write zeros to read_led executed
+current read executed
+[159, 2, 125, 3, 125, 3]
+led currents match
+current write executedend of autobrightness function
+beginning of autobrightness function
+data test 0x44: 60.94
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 60.78
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.42
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.26
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 61.1
+end of autobrightness function
+read_captivate executed
+read_captivate executed
+beginning of autobrightness function
+read_captivate executed
+data test 0x44: 61.42
+end of autobrightness function
+read_captivate executed
+read_captivate executed
+read_captivate executed
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+beginning of autobrightness function
+data test 0x44: 61.42
+[0, 0, 15, 0, 0, 13]
+user_location = 0
+data test 0x44: 61.26
+read_led executed
+starting over
+read unsuccessful
+read_led executed
+write zeros to read_led executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+current read executed
+[159, 2, 125, 3, 125, 3]
+restarting current write loop
+write_led executed
+read_captivate executed
+write currents executed
+read_led executed
+write zeros to read_led executed
+current read executed
+[62, 2, 248, 2, 248, 2]
+led currents match
+current write executedend of autobrightness function
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+beginning of autobrightness function
+[0, 0, 2, 0, 0, 13]
+user_location = 0
+data test 0x44: 61.26
+data test 0x44: 61.26
+read_led executed
+write zeros to read_led executed
+current read executed
+[62, 2, 248, 2, 248, 2]
+[0, 0, 2, 0, 0, 13]
+user_location = 0
+write_led executed
+write currents executed
+read_led executed
+[0, 0, 2, 0, 0, 13]
+user_location = 0
+write zeros to read_led executed
+current read executed
+[125, 1, 236, 1, 236, 1]
+led currents match
+current write executedend of autobrightness function
+[0, 0, 2, 0, 0, 13]
+user_location = 0
+read_captivate executed
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+[0, 0, 2, 0, 0, 15]
+user_location = 0
+[0, 0, 2, 0, 0, 13]
+user_location = 0
+beginning of autobrightness function
+data test 0x44: 60.78
+data test 0x44: 60.78
+read_led executed
+write zeros to read_led executed
+current read executed
+[125, 1, 236, 1, 236, 1]
+write_led executed
+write currents executed
+read_led executed
+write zeros to read_led executed
+current read executed
+[127, 2, 81, 3, 81, 3]
+led currents match
+current write executedend of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.84
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 4.82
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[127, 2, 81, 3, 81, 3]
+write_led executed
+write currents executed
+read_led executed
+write zeros to read_led executed
+current read executed
+[223, 1, 125, 2, 125, 2]
+led currents match
+current write executedend of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.54
+read_led executed
+write zeros to read_led executed
+current read executed
+[223, 1, 125, 2, 125, 2]
+restarting current write loop
+write_led executed
+write currents executed
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[124, 2, 78, 3, 78, 3]
+led currents match
+current write executedend of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.54
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.36
+end of autobrightness function
+read_captivate executed
+[0, 0, 15, 0, 0, 13]
+user_location = 0
+beginning of autobrightness function
+data test 0x44: 59.9
+data test 0x44: 59.9
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[124, 2, 78, 3, 78, 3]
+write_led executed
+write currents executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_led executed
+write zeros to read_led executed
+current read executed
+[95, 2, 36, 3, 36, 3]
+led currents match
+current write executedend of autobrightness function
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 13]
+user_location = 0
+beginning of autobrightness function
+data test 0x44: 60.06
+data test 0x44: 60.06
+read_led executed
+write zeros to read_led executed
+current read executed
+[95, 2, 36, 3, 36, 3]
+write_led executed
+write currents executed
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[157, 1, 25, 2, 25, 2]
+led currents match
+current write executedend of autobrightness function
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+beginning of autobrightness function
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+data test 0x44: 59.74
+data test 0x44: 59.74
+read_led executed
+write zeros to read_led executed
+current read executed
+[157, 1, 25, 2, 25, 2]
+read_captivate executed
+write_led executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+write currents executed
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[28, 1, 102, 1, 102, 1]
+led currents match
+current write executedend of autobrightness function
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+read_captivate executed
+[0, 0, 15, 0, 0, 15]
+user_location = 0
+beginning of autobrightness function
+data test 0x44: 59.74
+data test 0x44: 59.74
+read_led executed
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[28, 1, 102, 1, 102, 1]
+restarting current write loop
+write_led executed
+write currents executed
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[91, 0, 91, 0, 91, 0]
+led currents match
+current write executedend of autobrightness function
+beginning of autobrightness function
+data test 0x44: 57.88
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 325.6
+read_led executed
+write zeros to read_led executed
+current read executed
+[91, 0, 91, 0, 91, 0]
+write_led executed
+write currents executed
+read_led executed
+write zeros to read_led executed
+current read executed
+[108, 0, 108, 0, 108, 0]
+led currents match
+current write executedend of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.2
+read_led executed
+write zeros to read_led executed
+current read executed
+[108, 0, 108, 0, 108, 0]
+restarting current write loop
+write_led executed
+write currents executed
+starting over
+read_led executed
+write zeros to read_led executed
+current read executed
+[91, 0, 91, 0, 91, 0]
+led currents match
+current write executedend of autobrightness function
+beginning of autobrightness function
+data test 0x44: 57.88
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 57.4
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 58.52
+end of autobrightness function
+beginning of autobrightness function
+data test 0x44: 41.0
+read_led executed
+write zeros to read_led 

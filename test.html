@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Page Title</title>
+</head
+
+<body>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+
+<p id="paragraph" title="I'm a tooltip">
+This is a paragraph.
+</p>
+
+<button onclick="swap()">show iframe source</button>
+<script>
+function swap(){
+	var x = document.getElementById("frame2").src;
+	document.getElementById("paragraph").innerHTML = x;
+}
+</script>
+
+<!--
+<a href="#" onmouseover="this.href = window.getElementById('frame1').location.href;" target="_blank">Open Iframe Contents in a New Tab</a>
+-->
+
+</br>
+
+<iframe src="settings.html" height="300" width="48%" id="frame1" align="left"></iframe>
+<iframe src="https://drive.google.com/embeddedfolderview?id=0BwaZQzcwTHDQcGNmQ0lITHg0SFE#list" 
+height="300" width="48%" id="frame2" align="right" ></iframe>
+<!--
+<iframe src="https://drive.google.com/file/d/0BwaZQzcwTHDQNnhyV1ZncldUa2s/preview"
+width="640" height="480"></iframe>
+-->
+
+
+</body>
+</html>

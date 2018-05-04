@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Settings</h1>
+
+<br>
+
+<form onsubmit="return false;" onload="updateGDriveField()">
+Google Drive URL:
+<input id="gdrive" type="text" name="URL" style="width:100%"><br>
+<button type="button" onclick="storeGDrive()">Apply Changes</button>
+</form>
+
+<br><br><br><br>
+
+<form onsubmit="return false;" onload="updateBrightField()">
+Brightness level:
+<button type="button" onclick="increment()">+</button>
+<input id="bright" type="text" name="brightness" style="width:50px" onblur="blurCheck()">
+<button type="button" onclick="decrement()">-</button><br>
+
+<button type="button" onclick="storeBright()">Apply Changes</button>
+</form>
+
+
+<script>
+function blurCheck(){
+	var brightness = document.getElementById('bright').value;
+	if( brightness>100 ){
+		document.getElementById('bright').value = 100;
+	}
+	else if( brightness<0 ){
+		document.getElementById('bright').value = 0;
+	}
+}
+
+function increment(){
+	var field = document.getElementById('bright');
+	var val_int = parseInt(field.value);
+	if(val_int<100)
+		val_int = val_int + 5;
+	field.value = val_int.toString();
+}
+function decrement(){
+	var field = document.getElementById('bright');
+	var val_int = parseInt(field.value);
+	if(val_int>0)
+		val_int = val_int - 5;
+	field.value = val_int.toString();
+}
+
+function updateGDriveField(){
+	var text;
+	if(typeof(Storage) !== "undefined") {
+		if( localStorage.GDrive ) {
+			text = localStorage.GDrive;
+			document.getElementById("gdrive").value = text;
+		}
+		else {
+			document.getElementById("gdrive").value = "https://drive.google.com/drive/folders/0BwaZQzcwTHDQcGNmQ0lITHg0SFE?usp=sharing";
+			storeGDrive();
+		}
+	}
+	else {
+		document.getElementById("gdrive").value = "Sorry, your browser does not support web storage...";
+	}
+}
+function storeGDrive() {
+	if(typeof(Storage) !== "undefined") {
+		var link = document.getElementById("gdrive").value;
+		if( link.search("drive.google.com/drive/folders/") >= 0) {
+			localStorage.GDrive = link;
+			var startString = "folders/";
+			var endString = "usp=sharing";
+			var start = link.search(startString);
+			var end = link.search(endString);
+			var folder = link.substring(start + startString.length, end-1);
+			var formattedStart = "https://drive.google.com/embeddedfolderview?id=";
+			var formattedEnd = "#list";
+			var formattedLink = formattedStart.concat(folder);
+			formattedLink = formattedLink.concat(formattedEnd);
+			localStorage.EmbeddedDrive = formattedLink;
+		}
+		else{
+			document.getElementById("gdrive").value = "Please input a valid shareable google drive folder...";
+		}
+	}
+	else {
+		document.getElementById("gdrive").value = "Sorry, your browser does not support web storage...";
+	}
+}
+
+function updateBrightField(){
+	var text;
+	if(typeof(Storage) !== "undefined") {
+		if( localStorage.brightness ) {
+			text = localStorage.brightness;
+			document.getElementById("bright").value = text;
+			console.log( "brightness: " + text );
+		}
+		else {
+			document.getElementById("bright").value = "100";
+			console.log( "brightness: " + document.getElementById("bright").value );
+		}
+	}
+	else {
+		document.getElementById("bright").value = "Sorry, your browser does not support web storage...";
+	}
+}
+function storeBright() {
+	if(typeof(Storage) !== "undefined") {
+		blurCheck();
+		localStorage.brightness = document.getElementById("bright").value;
+		console.log( "brightness: " + document.getElementById("bright").value );
+	}
+	else {
+		document.getElementById("bright").value = "Sorry, your browser does not support web storage...";
+	}
+}
+
+function startup(){
+	updateGDriveField();
+	updateBrightField();
+}
+
+document.onload = startup();
+
+</script>
+
+
+</html>
